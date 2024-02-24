@@ -52,7 +52,10 @@ def main():
     tex = st.text_area("", placeholder="Enter ...")
     len2 = st.selectbox("", l_list, key="2nd")
     if st.button("Translator"):
-        st.markdown(f"<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex, len2).capitalize()}</textarea>",True)
+        if(tex!=""):
+            st.markdown(f"<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex, len2).capitalize()}</textarea>",True)
+        else:
+            st.warning("Enter some text ... ")
 def check_internet_connection():
     try:
         response = requests.get("http://www.google.com", timeout=5)
