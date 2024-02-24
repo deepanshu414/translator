@@ -11,6 +11,9 @@ st.markdown("""
 .appview-container.st-emotion-cache-1wrcr25.ea3mdgi4 {
     rigth:20%;            
 }
+button.styles_terminalButton__JBj5T {
+    display: none;
+}
 svg.st-cn.st-db.st-bb.st-dc.st-dd {
     display:none;
 }
