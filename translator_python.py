@@ -48,7 +48,7 @@ def main():
         trans1 = trans.translate(text, dest=dest)
         return trans1.text
 
-    st.title("Translator")
+    st.title("Translate")
     tex = st.text_area("", placeholder="Enter ...")
     len2 = st.selectbox("", l_list, key="2nd")
     if st.button("Translator"):
