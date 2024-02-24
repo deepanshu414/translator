@@ -18,14 +18,14 @@ button.styles_terminalButton__JBj5T {
     display: ruby-text; 
     width: fit-content;
     }
-svg {
+svg{
     display: none;
     color:none;
     background-color:none;
     pointer-events: none;
 }
 h1#translator {
-    text-align: -webkit-center;
+    text-align:center;
 }
 button.st-emotion-cache-iiif1v.ef3psqc4 {
     display: none;
