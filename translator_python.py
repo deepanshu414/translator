@@ -43,20 +43,19 @@ header.st-emotion-cache-18ni7ap.ezrtsby2 {
 </style>
 """,True)
 def main():
-    # from googletrans import Translator, LANGUAGES
-    # l_list = list(LANGUAGES.values())
+    from googletrans import Translator, LANGUAGES
+    l_list = list(LANGUAGES.values())
     
-    # def change(text, dest):
-    #     trans = Translator()
-    #     trans1 = trans.translate(text, dest=dest)
-    #     return trans1.text
-    l_list=["h","k"]
+    def change(text, dest):
+        trans = Translator()
+        trans1 = trans.translate(text, dest=dest)
+        return trans1.text
     st.title("Translate")
     tex = st.text_area("", placeholder="Enter ...")
     len2 = st.selectbox("", l_list, key="2nd")
     if st.button("Translator"):
         if(tex!=""):
-            st.markdown("<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{Hello}</textarea>",True)
+            st.markdown("<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex,len2}</textarea>",True)
         else:
             st.warning("Enter some text ... ")
 def check_internet_connection():
