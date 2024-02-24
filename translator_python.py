@@ -11,6 +11,9 @@ st.markdown("""
 svg.st-cn.st-db.st-bb.st-dc.st-dd {
     display:none;
 }
+button.styles_terminalButton__JBj5T {
+    display: none;
+}
 .row-widget.stButton{
     display: ruby-text; 
     width: fit-content;
