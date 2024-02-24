@@ -51,8 +51,7 @@ def main():
     st.title("Translator")
     tex = st.text_area("", placeholder="Enter ...")
     len2 = st.selectbox("", l_list, key="2nd")
-    bt = st.button("Translate")
-    if bt:
+    if st.button("Translator"):
         st.markdown(f"<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex, len2).capitalize()}</textarea>",True)
 def check_internet_connection():
     try:
