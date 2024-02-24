@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 st.set_page_config(page_title="Translator",page_icon="🧑‍🤝‍🧑")
-from googletrans import Translator, LANGUAGES
 st.markdown("""
 <style>
 .st-at.st-au.st-av.st-aw.st-ae.st-ag.st-ah.st-af.st-c2.st-bo.st-c3.st-c4.st-c5.st-c6.st-am.st-an.st-ao.st-ap.st-c7.st-ar.st-as.st-bb.st-ax.st-ay.st-az.st-b0.st-b1 {
@@ -40,27 +39,27 @@ header.st-emotion-cache-18ni7ap.ezrtsby2 {
 }
 </style>
 """,True)
-# def main():
+def main():
+    from googletrans import Translator, LANGUAGES
+    l_list = list(LANGUAGES.values())
     
-l_list = list(LANGUAGES.values())
-
-def change(text, dest):
-    trans = Translator()
-    trans1 = trans.translate(text, dest=dest)
-    return trans1.text
-
-st.title("Translate")
-tex = st.text_area("", placeholder="Enter ...")
-len2 = st.selectbox("", l_list, key="2nd")
-if st.button("Translator"):
-    st.markdown(f"<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex, len2).capitalize()}</textarea>",True)
-# def check_internet_connection():
-#     try:
-#         response = requests.get("http://www.google.com", timeout=5)
-#         if response.status_code == 200:
-#             main()
-#         else:
-#             st.error("Check your internet connection ...")
-#     except requests.ConnectionError:
-#         st.error("Check your internet connection ...")
-# check_internet_connection()
+    def change(text, dest):
+        trans = Translator()
+        trans1 = trans.translate(text, dest=dest)
+        return trans1.text
+    
+    st.title("Translate")
+    tex = st.text_area("", placeholder="Enter ...")
+    len2 = st.selectbox("", l_list, key="2nd")
+    if st.button("Translator"):
+        st.markdown(f"<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex, len2).capitalize()}</textarea>",True)
+def check_internet_connection():
+    try:
+        response = requests.get("http://www.google.com", timeout=5)
+        if response.status_code == 200:
+            main()
+        else:
+            st.error("Check your internet connection ...")
+    except requests.ConnectionError:
+        st.error("Check your internet connection ...")
+check_internet_connection()
