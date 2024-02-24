@@ -1,70 +1,51 @@
+import cv2
+from pyzbar.pyzbar import decode
 import streamlit as st
-import requests
-st.set_page_config(page_title="Translator",page_icon="🧑‍🤝‍🧑")
-st.markdown("""
-<style>
-.st-at.st-au.st-av.st-aw.st-ae.st-ag.st-ah.st-af.st-c2.st-bo.st-c3.st-c4.st-c5.st-c6.st-am.st-an.st-ao.st-ap.st-c7.st-ar.st-as.st-bb.st-ax.st-ay.st-az.st-b0.st-b1 {
-    width: 100%;
-    text-align: center; 
-    display: inline-block;
-}
-svg.st-cn.st-db.st-bb.st-dc.st-dd {
-    display:none;
-}
-button.styles_terminalButton__JBj5T {
-    display: none;
-}
-.row-widget.stButton{
-    display: ruby-text; 
-    width: fit-content;
+
+# CSS styling for the app
+st.markdown(
+    """
+    <style>
+    .title {
+        font-size: 36px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 50px;
     }
-svg{
-    display: none;
-    color:none;
-    background-color:none;
-    pointer-events: none;
-}
-h1#translator {
-    text-align:center;
-}
-button.st-emotion-cache-iiif1v.ef3psqc4 {
-    display: none;
-}
-button.st-emotion-cache-ztfqz8.ef3psqc5 {
-    display: none;
-}
-.block-container.st-emotion-cache-1y4p8pa.ea3mdgi2 {
-    padding: 0;
-    margin:20px;
-}
-header.st-emotion-cache-18ni7ap.ezrtsby2 {
-    display: none;
-}
-</style>
-""",True)
-def main():
-    from googletrans import Translator, LANGUAGES
-    l_list = list(LANGUAGES.values())
-    
-    def change(text, dest):
-        trans = Translator()
-        trans1 = trans.translate(text, dest=dest)
-        return trans1.text
-    st.title("Translate")
-    tex = st.text_area("", placeholder="Enter ...")
-    len2 = st.selectbox("", l_list, key="2nd")
-    if st.button("Translator"):
-        if(tex!=""):
-            st.markdown("<textarea rows='3' style='pointer-events: none;caret-color: transparent;background-color:gainsboro;min-width:100%;max-width:100%;outline:none;border-radius:10px;padding:1em;margin:0;' readonly >{change(tex,len2}</textarea>",True)
-        else:
-            st.warning("Enter some text ... ")
-def check_internet_connection():
-    try:
-        response = requests.get("http://www.google.com", timeout=5)
-        if response.status_code == 200:
-            main()
-        else:
-            st.error("Check your internet connection ...")
-    except requests.ConnectionError:
-        st.error("Check your internet connection ...")
-check_internet_connection()
+    .button {
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .button:hover {
+        background-color: #45a049;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+def qr_code_scanner():
+    cap = cv2.VideoCapture(0)
+    while True:
+        ret, frame = cap.read()
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        a = 0
+        decoded_objects = decode(gray)
+        for obj in decoded_objects:
+            a += 1
+            st.success(obj.data.decode('utf-8'))
+        if a != 0:
+            break
+    cap.release()
+    cv2.destroyAllWindows()
+
+# Streamlit app
+st.markdown('<h1 class="title">QR Scanner</h1>', unsafe_allow_html=True)
+if st.button("Scan", key="scan_button"):
+    qr_code_scanner()
