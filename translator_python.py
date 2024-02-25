@@ -1,6 +1,6 @@
 import streamlit as st
 from googletrans import Translator, LANGUAGES
-st.set_page_config(page_title="Translator",page_icon="🧑‍🤝‍🧑")
+st.set_page_config(page_title="Translator",page_icon="https://static.vecteezy.com/system/resources/previews/022/663/262/non_2x/illustration-3d-chat-symbol-icon-talking-to-ai-robot-free-png.png")
 st.markdown("""
 <style>
 .st-at.st-au.st-av.st-aw.st-ae.st-ag.st-ah.st-af.st-c2.st-bo.st-c3.st-c4.st-c5.st-c6.st-am.st-an.st-ao.st-ap.st-c7.st-ar.st-as.st-bb.st-ax.st-ay.st-az.st-b0.st-b1 {
