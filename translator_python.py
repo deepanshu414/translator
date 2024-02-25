@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-st.set_page_config(page_title="Translator",page_icon="https://static.vecteezy.com/system/resources/previews/010/881/290/non_2x/language-conversation-translation-3d-icon-illustration-png.png")
+st.set_page_config(page_title="Translator",page_icon="https://static.vecteezy.com/system/resources/previews/016/017/444/non_2x/language-translation-with-transparent-background-free-png.png")
 st.markdown("""
 <style>
 .st-at.st-au.st-av.st-aw.st-ae.st-ag.st-ah.st-af.st-c2.st-bo.st-c3.st-c4.st-c5.st-c6.st-am.st-an.st-ao.st-ap.st-c7.st-ar.st-as.st-bb.st-ax.st-ay.st-az.st-b0.st-b1 {
