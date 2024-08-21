@@ -8,19 +8,18 @@
 <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
 <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" alt="Contributions Welcome">
 </p>
+<br>
+## Overview
+
+This repository contains a Python-based multi-language translator with a Streamlit web interface. The application allows users to translate text between various languages using a powerful translation API.
 
 ## Table of Contents
-- [Overview](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Overview
-
-This repository contains a Python-based multi-language translator with a Streamlit web interface. The application allows users to translate text between various languages using a powerful translation API.
 
 ## Features
 
