@@ -53,7 +53,7 @@ Follow these steps to set up the Multi-Language Translator on your local machine
   ```sh
   cd translator
   ```
-3. Create a virtual environment (optional but recommended):
+3. **Create a virtual environment (optional but recommended):**
   ```sh
   python -m venv venv
   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
