@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://socialify.git.ci/deepanshu414/translator/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto" alt="SearchMaster" width="640" height="320" />
+<img src="https://socialify.git.ci/deepanshu414/translator/image?&font=KoHo&forks=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto" alt="SearchMaster" width="640" height="320" />
 
 </div>
 <p align="center">
