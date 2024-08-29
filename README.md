@@ -66,7 +66,7 @@ _Follow these steps to set up the Multi-Language Translator on your local machin
 
 To run the Multi-Language Translator:
 
-1. Ensure you're in the project directory and your virtual environment is activated (if you're using one).
+1. _Ensure you're in the project directory and your virtual environment is activated (if you're using one)._
 
 2. Start the Streamlit app:
   ```python
