@@ -74,7 +74,7 @@ To run the Multi-Language Translator:
   ```
 3. _Open your web browser and go to `http://localhost:8501` (or the address provided in the terminal)._
 
-4. Use the interface to select your source and target languages, enter the text you want to translate, and click the "Translate" button.
+4. _Use the interface to select your source and target languages, enter the text you want to translate, and click the "Translate" button._
 
 <p align="center">
   <img width="648" alt="translator_image" src="https://github.com/user-attachments/assets/d8c9f67e-bb5f-448c-9e00-b17febe29e4e">
