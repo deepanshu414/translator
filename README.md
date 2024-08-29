@@ -45,7 +45,7 @@ Before you begin, ensure you have met the following requirements:
 
 _Follow these steps to set up the Multi-Language Translator on your local machine:_
 
-1. **Clone the repository**
+1. _**Clone the repository**_
   ```sh
   git clone https://github.com/deepanshu414/translator.git
   ```
