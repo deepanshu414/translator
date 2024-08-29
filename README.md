@@ -34,8 +34,8 @@ Before you begin, ensure you have met the following requirements:
   
 ## Badges
 
-<img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python Version"> <br> <br>
-<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"><br> <br>
+<img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python Version"> <br>
+<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"><br> 
 <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" alt="Contributions Welcome">
 
 ## Installation
