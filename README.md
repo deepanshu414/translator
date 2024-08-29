@@ -11,6 +11,7 @@ This repository contains a Python-based multi-language translator with a Streaml
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
+- [Badges](#badges)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
