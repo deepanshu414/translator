@@ -72,7 +72,7 @@ To run the Multi-Language Translator:
   ```python
   streamlit run app.py
   ```
-3. Open your web browser and go to `http://localhost:8501` (or the address provided in the terminal).
+3. _Open your web browser and go to `http://localhost:8501` (or the address provided in the terminal)._
 
 4. Use the interface to select your source and target languages, enter the text you want to translate, and click the "Translate" button.
 
