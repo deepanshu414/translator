@@ -6,7 +6,7 @@
 </div>
 
 <br>
-This repository contains a Python-based multi-language translator with a Streamlit web interface. The application allows users to translate text between various languages using a powerful translation API.
+
 
 ## Table of Contents
 - [Features](#features)
