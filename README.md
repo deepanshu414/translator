@@ -32,9 +32,9 @@ This repository contains a Python-based multi-language translator with a Streaml
 
 Before you begin, ensure you have met the following requirements:
 
-- **Python 3.7+**
-- **pip (Python package manager)**
-- **Git (for cloning the repository)**
+- _**Python 3.7+**_
+- _**pip (Python package manager)**_
+- _**Git (for cloning the repository)**_
   
 ## Badges
 
