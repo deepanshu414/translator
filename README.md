@@ -43,7 +43,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-Follow these steps to set up the Multi-Language Translator on your local machine:
+_Follow these steps to set up the Multi-Language Translator on your local machine:_
 
 1. **Clone the repository**
   ```sh
