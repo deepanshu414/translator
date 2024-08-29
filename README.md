@@ -58,7 +58,7 @@ _Follow these steps to set up the Multi-Language Translator on your local machin
   python -m venv venv
   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
   ```
-4. **Install the required packages**
+4. _**Install the required packages**_
   ```sh
   pip install -r requirements.txt
   ```
