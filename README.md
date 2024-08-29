@@ -4,7 +4,7 @@
 <img src="https://socialify.git.ci/deepanshu414/translator/image?description=1&descriptionEditable=This%20repository%20contains%20a%20Python-based%20multi-language%20translator%20with%20a%20Streamlit%20web%20interface.&font=KoHo&forks=1&contribution=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto" alt="SearchMaster" width="640" height="320" />
 
 </div>
-
+This repository contains a Python-based multi-language translator with a Streamlit web interface. The application allows users to translate text between various languages using a powerful translation API.
 <br>
 
 
