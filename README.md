@@ -49,7 +49,7 @@ _Follow these steps to set up the Multi-Language Translator on your local machin
   ```sh
   git clone https://github.com/deepanshu414/translator.git
   ```
-2. **Navigate to the project directory**
+2. _**Navigate to the project directory**_
   ```sh
   cd translator
   ```
