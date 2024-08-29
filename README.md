@@ -1,8 +1,6 @@
 # Multi-Language Translator
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bce95bd6-78db-4bf9-a5f3-e75907770a20" alt="translator-Banner">
-</p>
+
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python Version">
 <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
