@@ -5,13 +5,6 @@
 
 </div>
 
-# Badges
-
-<p align="left">
-<img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python Version">
-<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-<img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" alt="Contributions Welcome">
-</p>
 <br>
 This repository contains a Python-based multi-language translator with a Streamlit web interface. The application allows users to translate text between various languages using a powerful translation API.
 
@@ -37,6 +30,14 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.7+
 - pip (Python package manager)
 - Git (for cloning the repository)
+  
+## Badges
+
+<p align="left">
+<img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python Version">
+<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+<img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" alt="Contributions Welcome">
+</p>
 
 ## Installation
 
