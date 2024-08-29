@@ -19,10 +19,6 @@ This repository contains a Python-based multi-language translator with a Streaml
 
 ## Features
 
-- Support for multiple languages
-- User-friendly Streamlit interface
-- Fast and accurate translations
-- Easy-to-use API integration
 - Multilingual Support
   - Seamless translation across a wide range of languages
 - Intuitive User Interface
