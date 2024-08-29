@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://socialify.git.ci/deepanshu414/translator/image?description=1&descriptionEditable=This%20repository%20showcases%20a%20collection%20of%20animations%20I%27ve%20created%20using%20CSS%20and%20JavaScript.&font=KoHo&forks=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto" alt="SearchMaster" width="640" height="320" />
+<img src="https://socialify.git.ci/deepanshu414/translator/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto" alt="SearchMaster" width="640" height="320" />
 
 </div>
 <p align="center">
