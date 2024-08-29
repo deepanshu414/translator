@@ -68,7 +68,7 @@ To run the Multi-Language Translator:
 
 1. _Ensure you're in the project directory and your virtual environment is activated (if you're using one)._
 
-2. _Start the Streamlit app:-_
+2. _Start the Streamlit app :-_
   ```python
   streamlit run app.py
   ```
